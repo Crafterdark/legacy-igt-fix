@@ -1,4 +1,4 @@
-# Fabric Example Mod
+# Legacy IGT Fix Mod for 1.8.9 [WIP Other versions]
 
 ## Setup
 
