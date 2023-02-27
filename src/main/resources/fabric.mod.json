@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "legacy-igt-fix",
   "version": "${version}",
-  "name": "Legact IGT Fix",
+  "name": "Legacy IGT Fix",
   "description": "Legacy IGT uses the appropriate tick() function to avoid inconsistent results",
   "authors": [
     "Me!"
