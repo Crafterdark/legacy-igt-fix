@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "legacy-igt-fix",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "Legacy IGT uses Server instead of Client",
+  "name": "Legact IGT Fix",
+  "description": "Legacy IGT uses the appropriate tick() function to avoid inconsistent results",
   "authors": [
     "Me!"
   ],
@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.legacyigtfix.Test"
+      "net.fabricmc.legacyigtfix.Initialization"
     ]
   },
   "mixins": [

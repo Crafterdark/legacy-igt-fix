@@ -31,14 +31,14 @@ public class ServerWorldMixin extends World {
         return 0;
     }
 
-    @Inject(method = "tick()V", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/LevelProperties;setTime(J)V"))
-    private void injected(CallbackInfo ci) {
+    //@Inject(method = "tick()V", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/LevelProperties;setTime(J)V"))
+    //private void injected(CallbackInfo ci) {
         //DEBUG:
-        if(dimension.getType()==0) System.out.println("Total ServerWorld/World time:"+this.levelProperties.getTime());
+        //if(dimension.getType()==0) System.out.println("Total ServerWorld/World time:"+this.levelProperties.getTime());
         //if(dimension.getType()==0) System.out.println("Total Overworld time:"+levelProperties.getTime());
         //if(dimension.getType()==-1) System.out.println("Total Nether time:"+levelProperties.getTime());
         //if(dimension.getType()==1) System.out.println("Total The End time:"+levelProperties.getTime());
-    }
+    //}
 
 
 }
