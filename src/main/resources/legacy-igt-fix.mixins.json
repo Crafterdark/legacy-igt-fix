@@ -4,9 +4,11 @@
   "package": "net.fabricmc.legacyigtfix.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin",
+    "ServerWorldMixin"
   ],
   "client": [
-    "MinecraftServerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
